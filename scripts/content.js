@@ -6,4 +6,8 @@ if (location.hostname === "calendar.google.com") {
   root.style.setProperty("--on-surface-variant-agm", "#FFFFFF");
   root.style.setProperty("--background", "#020202");
   document.getElementById("gb").style = "background-color:rgba(0,0,0,1)";
+} else if (location.hostname === "translate.google.pl") {
+  document.getElementsByClassName("zQTmif")[0].style.backgroundColor =
+    "#000000";
+  document.getElementsByTagName("header")[0].style.backgroundColor = "#000000";
 }
