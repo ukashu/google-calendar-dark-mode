@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Calendar Dark Mode",
+  "description": "Change background color to black in Google Calendar",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
